@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(31, 20, 20);
+    padding: 40px;
+}
+
+ul li{
+    color:red;
+    display: inline;
+    margin: 80px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    border-top: 1px dotted orange;
+    border-bottom: 1px dotted orange;
+}
+
+.first-div button{
+    margin-top: 75px;
+}
+
+button:hover{
+    background-color: orange;
+    padding: 4px;
+   
+}
+
+/*section*/
+span{
+    color: darkorange;
+}
+
+.sub-section{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-top: 30px;
+}
+.sub-section h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sub-section p{
+    font-size: 25px;
+}
+
+.sub-section .text{
+    margin-top: 25px;
+}
+
+.sub-section button{
+    background-color: black;
+    color: white;
+}
+
+
+.first-div{
+    margin:auto;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.first-div hr{
+    background-color: orange;
+    padding: 0.25px;
+    margin-top: -10px ;
+}
+
+.third-div{
+
+    margin-left: 10px;
+    margin-right: 80px;
+}
+
+
+.third-div h2{
+    margin-top:10px;
+}
+
+.third-div h2 hr{
+    color: orangered;
+}
+
+.third-div >hr{
+    background-color: orange;
+    padding: 2px;
+    
+}
+
+.third-div .logos{
+    margin-top: 40px;
+}
+
+.third-div .logos img{
+    margin-right: 40px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+footer >div{
+    margin: auto;
+    font-size: 10px
+}
+
+footer .first-footer-div{
+   margin-left: ;
+}
+
+footer img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

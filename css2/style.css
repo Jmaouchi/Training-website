@@ -1,0 +1,62 @@
+.about-html{
+    background-color:black;
+    color: white;
+    display: grid;
+    grid-template-columns: 4fr 4fr ;
+}
+
+.first-div {
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-right: 75px;
+    margin-right: 200px;
+    line-height: 2em;
+}
+
+.orange-dot img {
+border-radius: 100%;
+width: 10%;
+}
+
+.first-div .orange-dot img {
+    width: 20%;
+  
+}
+
+.first-div h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.first-div p{
+    margin-top: 25px;
+    text-decoration: none;
+    max-width: 860%;
+}
+
+.first-div .div-img{
+    margin-top: 35px;  
+}
+
+.first-div .div-img img{
+    margin-right: 20px;
+}
+
+.second-div {
+    margin-top: 155px;
+    margin-left: 75px;
+}
+
+.second-div .orange-dot img{
+float: right;
+margin-right: 255px;
+margin-top: 35px;
+width: 15%;
+}
+
+.second-div img{
+    border-radius: 100%;
+    margin-top: 15px;
+}

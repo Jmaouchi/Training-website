@@ -1,0 +1,25 @@
+-To creat a new branch you need to do git branch -c and name of the branch.
+
+-change directory to the new branch by typing git checkout (your new branch)
+
+-you will do git branch to see where you at and how nmany branch you have (the one you in will be green)
+
+-do whatever you need to do and all your work, after that do git status.
+
+-after the git status, you will see all your work.
+
+-next will be git add .
+
+-git commit -m "comment"
+
+-git push origin {new branch}
+
+-you will click the link and that will be by holding ctrl and f 
+
+-it will take you to github straight, and after that you will send a pull request to whoever you want to see your changes.
+
+-after it will be accepted, you need to merge it to the master branch.
+
+-switch to master branch and do git pull origin master
+
+done 

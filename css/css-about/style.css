@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(31, 20, 20);
+    padding: 40px;
+}
+
+ul li{
+    color:red;
+    display: inline;
+    margin: 80px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    border-top: 1px dotted orange;
+    border-bottom: 1px dotted orange;
+}
+
+/*section*/
+
+.first-div {
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 75px;
+    margin-right: 200px;
+    line-height: 2em;
+}
+
+
+ .first-section  .grid{
+    display: grid;
+    grid-template-columns:2fr 2fr ;
+}
+
+.orange-dot img {
+    border-radius: 100%;
+    width: 15%;
+
+    }
+    
+.first-div .orange-dot img {
+        width: 20%;
+      
+    }
+    
+.first-div h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+    
+.first-div p{
+        margin-top: 25px;
+        text-decoration: none;
+        max-width: 860%;
+    }
+    
+ .first-div .div-img{
+        margin-top: 35px;  
+    }
+    
+.first-div .div-img img{
+        margin-right: 20px;
+    }
+    
+.second-div {
+        margin-top: 45px;
+        margin-left: 75px;
+    }
+    
+.second-div .orange-dot img{
+    float: right;
+    margin-right: 155px;
+    margin-top: 5px;
+    width: 15%;
+    }
+    
+.second-div img{
+        border-radius: ;
+        margin-top: 15px;
+    }

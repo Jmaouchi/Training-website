@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(31, 20, 20);
+    padding: 40px;
+}
+
+ul li{
+    color:red;
+    display: inline;
+    margin: 80px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    border-top: 1px dotted orange;
+    border-bottom: 1px dotted orange;
+}
+
+/*section*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 100px;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.grid .first-grid-div hr{
+    padding: 4px;
+    border-style:groove;
+    background-color: orange;
+    margin-left: 10px;
+}
+
+.grid .first-grid-div h1{
+    font-size: 105px;
+    font-weight: bold;
+    color: orange;
+    max-width: 25px;
+    margin-top:20px;
+}
+
+.grid .second-grid-div h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid .second-grid-div p{
+    margin-bottom:15px;
+    margin-top: 15px;
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.grid .second-grid-div li a{
+    text-decoration: none;
+    margin-top: 30px;  
+}
+
+.grid .second-grid-div li{
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+.second-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center ;
+}
+
+h3 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.sub-section-div-one hr {
+    margin-top: -15px;
+}
+
+.second-grid p {
+    color: yellow;
+    max-width: 300px;
+    margin-top: 25px;
+    color: rgb(175, 172, 172);
+}

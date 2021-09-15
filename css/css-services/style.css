@@ -47,7 +47,6 @@ a:hover{
     font-size: 105px;
     font-weight: bold;
     color: orange;
-    max-width: 25px;
     margin-top:20px;
 }
 
@@ -101,4 +100,74 @@ h3 {
     max-width: 300px;
     margin-top: 25px;
     color: rgb(175, 172, 172);
+}
+
+@media (max-width:1000px){
+    body{
+        width: 100%;
+    }
+
+    header{
+        background-color: red;
+    }
+
+    .header-nav{
+        
+    }
+
+    ul li{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin:2px;
+        align-items: center;
+        text-align: center;
+        border: black solid 5PX;
+
+        border-radius: 100px;
+    }
+
+    ul li a{
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        color: black;
+        align-items: center;  
+    }
+
+    ul, li :hover{
+        color:white;
+        border-radius:  100px;
+    }
+
+    /*section*/
+
+    .grid{
+        display: block;
+        align-items: center;
+    }
+    
+    .first-grid-div{
+        width: 100%;
+    }
+
+    .grid .first-grid-div h1{
+        font-size: 65px;
+        width: 100%;
+    }
+
+    .sub-section{
+        align-items: center;
+    }
+
+    .second-grid{
+        border: palevioletred solid 5px;
+        display: block;
+    }
+
+    .sub-section-div-one{
+        margin-bottom: 40px;
+       
+
+    }
 }

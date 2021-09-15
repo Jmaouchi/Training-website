@@ -1,0 +1,129 @@
+*{
+       
+}
+
+
+body, html{
+    background:linear-gradient(rgba(3, 0, 0, 0.6), rgba(53, 0, 0, 0.3) ), url(observation-urban-building-business-steel_1127-2397.jpg) center center / cover ;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/*header*/
+
+.header{
+    padding: 25px;
+    text-align: center;
+}
+
+.header .header-content{
+
+}
+
+.header-content .h1 h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.header-content .p p {
+    font-size: 17px;
+}
+
+/*section*/
+
+.section{
+    padding: 5px;
+}
+
+.section-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-content .section-content-col-one {
+    width: 100%;
+    margin-right: 5px;
+}
+
+.section-content-col-one-first-line {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.section-content-col-one-first-line .img{
+    margin-left: 220px;
+    margin-right: 10px;
+  
+    
+}
+
+.section-content-col-one-first-line .text-content{
+    margin-left:10px;
+    border-bottom:  solid 3px;
+}
+
+.text-content h2{
+    margin-top: 25px;
+    font-size: 35px;
+    margin-bottom: 0;
+    color: skyblue;
+}
+
+.text-content p{
+    margin-top: 20px;
+}
+
+.section-content .section-content-col-two{
+    border: white 5px solid;
+    margin-left: 15px;
+}
+
+/*phase 2*/
+
+.section-content-col-two {
+    background-color: white;
+    color: black;
+    width: 550px;
+    border: black solid 2px;
+}
+
+.section-content-col-two .section-content-col-two{
+    width: 90%;
+    margin-top: 25px;
+    padding: px;
+}
+
+span{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(207, 40, 40);
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.name-email-placeholder{
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.text-placeholder {
+    width: 350px;
+    height: 55px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    background-color:rgb(26, 146, 194);
+    color: white;
+
+}

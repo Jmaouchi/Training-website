@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+max-width: 100%;
 }
 
 header{
     background-color: rgb(31, 20, 20);
     padding: 40px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    text-align: center;
 }
 
 ul li{
     color:red;
     display: inline;
-    margin: 80px;
+    margin: 100px;
+    text-align: center;
+    align-items: center;
 }
 
 ul li a{
@@ -21,57 +32,73 @@ ul li a{
     text-decoration: none;
 }
 
+li .icon i{
+    cursor: pointer;
+    margin-right:10px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.7rem;
+    border-radius: 40%;
+    background-color: gray;
+}
+
+li .icon i:hover{
+    background-color:none;
+    transform: rotate(0deg);
+}
+
 a:hover{
     border-top: 1px dotted orange;
     border-bottom: 1px dotted orange;
 }
 
+
+
 /*section*/
-
-.first-div {
-    margin-left: 100px;
-    margin-top: 60px;
-    margin-right: 75px;
-    margin-right: 200px;
-    line-height: 2em;
-}
-
 
  .first-section  .grid{
     display: grid;
     grid-template-columns:2fr 2fr ;
+    margin: 20px 20px;
+    line-height: 2em;
+}
+
+.grid-content{
+    margin-top: 55px;
+    align-items: center;
+    
 }
 
 .orange-dot img {
     border-radius: 100%;
     width: 15%;
+    margin-bottom: 10px;
 
     }
-    
-.first-div .orange-dot img {
-        width: 20%;
-      
-    }
-    
-.first-div h1{
+.text{
+    width: 100%;
+
+}  
+
+.text-content h1{
         font-size: 25px;
         font-weight: bold;
         text-transform: uppercase;
         margin-top: 25px;
     }
     
-.first-div p{
+.text-content p{
         margin-top: 25px;
         text-decoration: none;
         max-width: 860%;
     }
     
- .first-div .div-img{
+ .text .div-img{
         margin-top: 35px;  
     }
     
-.first-div .div-img img{
-        margin-right: 20px;
+.text .div-img img{
+        margin-right: 50px;
     }
     
 .second-div {
@@ -81,12 +108,73 @@ a:hover{
     
 .second-div .orange-dot img{
     float: right;
-    margin-right: 155px;
+    margin-right: 50px;
     margin-top: 5px;
-    width: 15%;
+    width: 20%;
     }
     
 .second-div img{
-        border-radius: ;
-        margin-top: 15px;
+       align-items: center;
+
     }
+
+@media (max-width:800px){
+
+    body{
+        width: 100%;
+    }
+
+    header{
+        background-color: blue;
+        color: white;
+    }
+
+    .header-nav{
+        border: solid darkblue 5px;  
+        padding: 10px;
+    }
+
+    ul li{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin:0;
+        padding:0;
+        align-items: center;
+        text-align: center;
+        border: black solid 5PX;
+        border-radius: 100px;  
+    }
+
+    ul li a{
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        color: white;
+        align-items: center;  
+    }
+
+    ul, li :hover{
+        color:white;
+        border-radius:  100px;
+    }
+
+  
+
+    .first-section .grid{
+       
+        display: block;
+    }
+
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .orange-dot{
+        display: none;
+    }
+
+
+
+} 

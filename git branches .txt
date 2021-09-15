@@ -16,7 +16,7 @@
 
 -you will click the link and that will be by holding ctrl and f 
 
--it will take you to github straight, and after that you will send a pull request to whoever you want to see your changes.
+-it will take you to github straight and after that you will send a pull request to whoever you want to see your changes.
 
 -after it will be accepted, you need to merge it to the master branch.
 

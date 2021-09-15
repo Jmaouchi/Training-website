@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+max-width: 100%;
+}
+
+header{
+    background-color: rgb(31, 20, 20);
+    padding: 40px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    text-align: center;
+}
+
+ul li{
+    color:red;
+    display: inline;
+    margin: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+li .icon i{
+    cursor: pointer;
+    margin-right:10px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.7rem;
+    border-radius: 40%;
+    background-color: gray;
+}
+
+li .icon i:hover{
+    background-color:none;
+    transform: rotate(0deg);
+}
+
+a:hover{
+    border-top: 1px dotted orange;
+    border-bottom: 1px dotted orange;
+}
+
+
+
+/*section*/
+
+.section-content{
+    padding: 35px;
+    margin: auto;
+    height: 100%;
+    min-height: 100vh;
+   
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+}
+
+/*first-grid style*/
+
+.first-grid{
+   
+    margin-left: 25px;
+    align-items: center;
+}
+
+.first-grid-img img{
+    margin-left:0px;
+    margin-bottom: 20px;
+}
+
+.first-grid-text{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+}
+
+.first-grid-text h1{
+    max-width: 285px;
+
+
+}
+.first-grid-text p{
+    max-width: 185px;
+    margin-right: 120px;
+}
+
+
+.div-one-text-content {
+    align-items: center;
+    margin-left: 515px;
+}
+
+/*second-grid style*/
+
+.second-grid{
+     margin-top: 13px;
+     margin-left: 100px;
+}
+
+.second-grid-content .div-one{
+    display: flex;
+    margin-bottom: 75px;
+    
+}
+
+.second-grid-content .div-one img{
+    margin-top: 0px;
+}
+
+.second-grid-content .div-one-text-content {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.second-grid-content .div-one-text-content h1{
+    margin-bottom: 20px;
+}
+
+.second-grid-content .div-one-text-content p{
+    max-width: 250px;
+}
+
+
+
+.second-grid-content .div-two{
+    display: flex;
+}
+
+.second-grid{
+    margin-top: 13px;
+}
+
+.second-grid-content .div-two{
+   display: flex;
+   margin-bottom: 75px;
+   
+}
+
+.second-grid-content .div-two img{
+   margin-top: 0px;
+}
+
+.second-grid-content .div-two-text-content {
+   align-items: center;
+   text-align: center;
+   margin: auto;
+   margin-left: 50px;
+}
+
+.second-grid-content .div-two-text-content h1{
+   margin-bottom: 20px;
+}
+
+.second-grid-content .div-two-text-content p{
+   max-width: 250px;
+}
